@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Stepper-Form/static/css/main.073c9b0a.css",
+    "main.js": "/Stepper-Form/static/js/main.0c932eea.js",
+    "static/js/787.25d421ff.chunk.js": "/Stepper-Form/static/js/787.25d421ff.chunk.js",
+    "index.html": "/Stepper-Form/index.html",
+    "main.073c9b0a.css.map": "/Stepper-Form/static/css/main.073c9b0a.css.map",
+    "main.0c932eea.js.map": "/Stepper-Form/static/js/main.0c932eea.js.map",
+    "787.25d421ff.chunk.js.map": "/Stepper-Form/static/js/787.25d421ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0c932eea.js"
+  ]
+}
