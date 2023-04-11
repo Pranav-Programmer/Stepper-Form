@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
 }
 }));
 function ActiveState(props) {
+ const classes = useStyles();
   return (props.formSubmitted || props.activeStep > props.step) ? (
     <>
         <CheckCircle sx={{fontSize: '30px', marginRight: '5px', color:"#1976d2"}} />
