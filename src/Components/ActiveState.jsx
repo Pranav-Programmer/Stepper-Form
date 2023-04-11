@@ -3,7 +3,7 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
- Component1{
+ Component1:{
   background: '#1976d2', 
   marginRight: '5px', 
   padding: '5px 11px ', 
@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   fontStyle: 'normal', 
   borderRadius: '50%'
 },
-  Component2{
+  Component2:{
   background: '#444', 
   marginRight: '5px', 
   padding: '5px 11px ', 
