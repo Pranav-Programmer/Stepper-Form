@@ -1,76 +1,78 @@
-# Stepper-Form
 
+# React Multi-Step Form Component
+
+The React Multi-Step Form component is a reusable component that allows you to create multi-step forms with ease. It utilizes React and Material-UI components to provide a user-friendly and interactive form experience. This README file will guide you on how to use and integrate the component into your React web application.
+
+## Table of Contents
+
+1. Installation
+2. Usage
+3. Component Structure
+4. Styling
+5. Credits
+## Installation
+Installation
+To use the React Multi-Step Form component in your React web application, you can follow these steps:
+
+1. Install the required dependencies by running the following command:
+
+```bash
+  npm install @mui/icons-material @material-ui/core react
+```
+
+2. Copy the ActiveState.js and HorizontalLinearStepper.js files into your project's component directory.
+
+3. Import the HorizontalLinearStepper component into your desired React component:
+
+
+
+```bash
+  import HorizontalLinearStepper from './path/to/HorizontalLinearStepper';
+```
+
+4. You are now ready to use the React Multi-Step Form component in your application!
+## Usage
+
+To use the React Multi-Step Form component, you can follow these steps:
+
+1. Render the 'HorizontalLinearStepper' component in your desired React component:
+
+```bash
+  function App() {
+  return (
+    <div>
+      <HorizontalLinearStepper />
+    </div>
+  );
+}
+```
+
+2. Customize the form steps, input fields, and validation according to your requirements. The component is designed to be flexible and easily adaptable to different use cases.
+
+3. Customize the styling of the form and its components by modifying the provided CSS classes or adding your own styles using the 'makeStyles' hook.
+
+4. Implement form submission handling by updating the 'handleSubmit' function inside the 'HorizontalLinearStepper' component. You can use the submitted form data in your application logic or send it to a server for further processing.
+
+5. Enjoy the benefits of a multi-step form that provides a smooth user experience and organized data collection.
 
 https://user-images.githubusercontent.com/79044490/230094686-4fbec320-fc98-4a16-b6fd-074046b9c82e.mp4
 
+## Component Structure
 
-# Getting Started with Create React App
+The React Multi-Step Form component consists of two main components:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- ActiveState: This component is responsible for rendering the active state indicator for each step in the form. It receives props such as 'formSubmitted', 'activeStep', and 'step' to determine the appearance of each step.
 
-## Available Scripts
+- HorizontalLinearStepper: This is the main component that renders the multi-step form. It manages the form state, handles form navigation, and contains the form input fields. It utilizes the 'ActiveState' component and Material-UI components to create an intuitive form experience.
 
-In the project directory, you can run:
+## Styling
 
-### `npm start`
+The React Multi-Step Form component uses Material-UI's styling solution to provide flexibility in customizing the component's appearance. The 'makeStyles' hook is used to define CSS styles for different parts of the form.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To customize the styling, you can modify the CSS classes inside the 'makeStyles' function in the 'HorizontalLinearStepper' component. You can change colors, margins, paddings, font styles, and more to match your application's design.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Credits
 
-### `npm test`
+The React Multi-Step Form Component was created by Pranav Dharme.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding!
