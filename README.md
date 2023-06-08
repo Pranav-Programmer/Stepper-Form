@@ -11,7 +11,7 @@ The React Multi-Step Form component is a reusable component that allows you to c
 4. Styling
 5. Credits
 ## Installation
-Installation
+
 To use the React Multi-Step Form component in your React web application, you can follow these steps:
 
 1. Install the required dependencies by running the following command:
@@ -31,6 +31,7 @@ To use the React Multi-Step Form component in your React web application, you ca
 ```
 
 4. You are now ready to use the React Multi-Step Form component in your application!
+
 ## Usage
 
 To use the React Multi-Step Form component, you can follow these steps:
